@@ -9,7 +9,7 @@ An easy way to expose properties on a module from a package.json
   curl http://npmjs.org/install.sh | sh
 ```
 
-### Installing nconf
+### Installing pkginfo
 ```
   [sudo] npm install pkginfo
 ```
