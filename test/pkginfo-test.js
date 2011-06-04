@@ -22,12 +22,12 @@ function assertProperties (source, target) {
 function testExposes (options) {
   return {
     topic: function () {
-      exec('node ' + path.join(__dirname, 'fixtures', options.script), this.callback);
+      exec('node ' + path.join(__dirname, '..', 'examples', options.script), this.callback);
     },
-    "should expose that property correctly": function (err, stdout) {
+    "should expose that property correctly": function (err, stdout, stderr) {
       assert.isNull(err);
       
-      var exposed = stdout.match(/'(\w+)'/ig).map(function (p) { 
+      var exposed = stderr.match(/'(\w+)'/ig).map(function (p) { 
         return p.substring(1, p.length - 1);
       });
       
@@ -59,7 +59,7 @@ vows.describe('pkginfo').addBatch({
     "and passed no arguments": testExposes({
       script: 'all-properties.js',
       assert: function (exposed) {
-        var pkg = fs.readFileSync(path.join(__dirname, 'fixtures', 'package.json')).toString(),
+        var pkg = fs.readFileSync(path.join(__dirname, '..', 'examples', 'package.json')).toString(),
             keys = Object.keys(JSON.parse(pkg));
         
         assertProperties(exposed, keys);
