@@ -1,0 +1,14 @@
+{
+  "name": "pkginfo",
+  "description": "An easy way to expose properties on a module from a package.json",
+  "version": "0.1.0",
+  "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/indexzero/pkginfo.git" 
+  },
+  "keywords": ["info", "tools", "package.json"],
+  "main": "./lib/pkginfo",
+  "scripts": { "test": "vows test/*-test.js --spec" },
+  "engines": { "node": ">= 0.4.0" }
+}
