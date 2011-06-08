@@ -7,7 +7,7 @@
  */
  
 var util = require('util'),
-    pkginfo = require('../lib/pkginfo')({
+    pkginfo = require('../lib/pkginfo')(module, {
       include: ['version', 'author']
     });
 

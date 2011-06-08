@@ -6,7 +6,7 @@
  */
  
 var util = require('util'),
-    pkginfo = require('../lib/pkginfo')('version', 'author');
+    pkginfo = require('../lib/pkginfo')(module, 'version', 'author');
 
 exports.someFunction = function () {
   console.log('some of your custom logic here');
