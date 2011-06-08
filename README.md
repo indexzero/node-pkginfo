@@ -36,7 +36,7 @@ In other words, how often have you wanted to expose basic information from your 
 Using `pkginfo` is idiot-proof, just require and invoke it. 
 
 ``` js
-  var pkginfo = require('pkginfo')();
+  var pkginfo = require('pkginfo')(module);
   
   console.dir(module.exports);
 ```
@@ -60,7 +60,7 @@ Here's a sample of the output:
 If you don't want to expose **all** properties on from your `package.json` on your module then simple pass those properties to the `pkginfo` function:
 
 ``` js
-  var pkginfo = require('pkginfo')('version', 'author');
+  var pkginfo = require('pkginfo')(module, 'version', 'author');
   
   console.dir(module.exports);
 ```
