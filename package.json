@@ -5,7 +5,7 @@
   "author": "Charlie Robbins <charlie.robbins@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/indexzero/pkginfo.git" 
+    "url": "http://github.com/indexzero/node-pkginfo.git" 
   },
   "keywords": ["info", "tools", "package.json"],
   "devDependencies": {
