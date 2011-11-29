@@ -13,7 +13,7 @@ var assert = require('assert'),
     pkginfo = require('../lib/pkginfo');
 
 function assertProperties (source, target) {
-  assert.length(source, target.length + 1);
+  assert.lengthOf(source, target.length + 1);
   target.forEach(function (prop) {
     assert.isTrue(!!~source.indexOf(prop));
   });
