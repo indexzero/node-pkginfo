@@ -1,6 +1,6 @@
 {
   "name": "pkginfo",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "An easy way to expose properties on a module from a package.json",
   "author": "Charlie Robbins <charlie.robbins@gmail.com>",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "keywords": ["info", "tools", "package.json"],
   "devDependencies": {
-    "vows": "0.5.x"
+    "vows": "0.6.x"
   },
   "main": "./lib/pkginfo",
   "scripts": { "test": "vows test/*-test.js --spec" },
