@@ -9,7 +9,7 @@
   },
   "keywords": ["info", "tools", "package.json"],
   "devDependencies": {
-    "vows": "0.6.x"
+    "vows": "0.7.x"
   },
   "main": "./lib/pkginfo",
   "scripts": { "test": "vows test/*-test.js --spec" },
