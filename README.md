@@ -5,9 +5,8 @@ An easy way to expose properties on a module from a package.json
 ## Installation
 
 ### Installing npm (node package manager)
-```
-  curl http://npmjs.org/install.sh | sh
-```
+
+`npm` now comes with [Node.js](http://nodejs.org/).
 
 ### Installing pkginfo
 ```
