@@ -7,6 +7,9 @@
     "type": "git",
     "url": "http://github.com/indexzero/node-pkginfo.git" 
   },
+  "bugs": {
+    "url": "https://github.com/indexzero/node-pkginfo/issues" 
+  },
   "keywords": ["info", "tools", "package.json"],
   "devDependencies": {
     "vows": "0.7.x"
