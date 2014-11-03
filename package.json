@@ -1,6 +1,7 @@
 {
   "name": "pkginfo",
   "version": "0.3.0",
+  "license": "MIT",
   "description": "An easy way to expose properties on a module from a package.json",
   "author": "Charlie Robbins <charlie.robbins@gmail.com>",
   "repository": {
