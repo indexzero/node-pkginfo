@@ -15,7 +15,10 @@
   "devDependencies": {
     "vows": "0.7.x"
   },
-  "main": "./lib/pkginfo",
-  "scripts": { "test": "vows test/*-test.js --spec" },
+  "main": "./lib/pkginfo.min.js",
+  "scripts": {
+      "compile": "ccjs lib/pkginfo.js --warning_level=VERBOSE --compilation_level=ADVANCED_OPTIMIZATIONS --externs=externs/minimal-env.js --externs=externs/pkginfo.js > lib/pkginfo.min.js",
+      "test": "vows test/*-test.js --spec"
+  },
   "engines": { "node": ">= 0.4.0" }
 }
