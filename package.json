@@ -15,7 +15,7 @@
   "devDependencies": {
     "vows": "0.7.x"
   },
-  "main": "./lib/pkginfo.js",
+  "main": "lib/pkginfo.js",
   "scripts": { "test": "vows test/*-test.js --spec" },
   "engines": { "node": ">= 0.4.0" }
 }
