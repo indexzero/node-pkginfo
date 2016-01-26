@@ -17,5 +17,11 @@
   },
   "main": "./lib/pkginfo.js",
   "scripts": { "test": "vows test/*-test.js --spec" },
-  "engines": { "node": ">= 0.4.0" }
+  "engines": { "node": ">= 0.4.0" },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/indexzero/node-pkginfo/master/LICENSE"
+    }
+  ]
 }
