@@ -69,7 +69,8 @@ If you're looking for further usage see the [examples][0] included in this repos
 Tests are written in [vows][1] and give complete coverage of all APIs.
 
 ```
-  vows test/*-test.js --spec
+  npm install
+  npm test
 ```
 
 [0]: https://github.com/indexzero/node-pkginfo/tree/master/examples
