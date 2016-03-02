@@ -11,11 +11,19 @@
   "bugs": {
     "url": "https://github.com/indexzero/node-pkginfo/issues"
   },
-  "keywords": ["info", "tools", "package.json"],
+  "keywords": [
+    "info",
+    "tools",
+    "package.json"
+  ],
   "devDependencies": {
-    "vows": "0.7.x"
+    "vows": "0.8.0"
   },
   "main": "./lib/pkginfo.js",
-  "scripts": { "test": "vows test/*-test.js --spec" },
-  "engines": { "node": ">= 0.4.0" }
+  "scripts": {
+    "test": "vows test/*-test.js --spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
 }
