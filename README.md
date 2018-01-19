@@ -34,7 +34,7 @@ Using `pkginfo` is idiot-proof, just require and invoke it.
   console.dir(module.exports);
 ```
 
-By invoking the `pkginfo` module all of the properties in your `package.json` file will be automatically exposed on the callee module (i.e. the parent module of `pkginfo`).
+By invoking the `pkginfo` module all of the properties in your `package.json` file will be automatically exposed on the called module (i.e. the parent module of `pkginfo`).
 
 Here's a sample of the output:
 
